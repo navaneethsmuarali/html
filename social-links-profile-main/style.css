@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    padding-top: 15%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height:100vh;
+    margin: 0;
+    background-color: rgb(24, 24, 24);
+    font-family: inter;
+
+
+}
+.card{
+    background-color: rgb(45, 42, 42);
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height:600px ;
+}
+.name{
+    padding-top: 30px;
+}
+.role{
+    padding-top: 40px;
+    color: aliceblue;
+    size: 1px;
+}
+.cardimg{
+    border-radius: 50%;
+    height: 20%;
+    width: 30%;
+    
+}
+.lis{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.skill{
+    padding-top: 20%;
+
+    
+}
+button{
+    padding-top: 30%;
+    border-radius: 10px;
+    border: none;
+    padding: 3%;
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    color: rgb(233, 234, 235);
+}
+
+h3{
+    color: aliceblue;
+}
+h2{
+    color: rgb(115, 229, 16);
+}
+button:hover {
+    background-color: rgb(93, 93, 93); /* Darken button background color on hover */
+  }
+ 
+.inter-uniquifier {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 2px;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+
+
+@media (min-width:320px) {
+    body{
+        padding-top: 57px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height:60vh;
+        margin: 0;
+        background-color: rgb(22, 22, 22);
+        font-family: inter;
+    
+    
+    }
+    .card{
+        background-color: rgb(45, 42, 42);
+        width: 300px;
+        padding: 1px;
+        border-radius: 8px;
+        text-align: center;
+        height:450px ;
+    }
+    .name{
+        padding-top: 10px;
+    }
+    .role{
+        padding-top: 10px;
+        color: aliceblue;
+        size: 1px;
+    }
+    .cardimg{
+        border-radius: 50%;
+        height: 15%;
+        width: 30%;
+        
+    }
+    .lis{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .skill{
+        padding-top:4%;
+    
+        
+    }
+    button{
+        padding-top: 20%;
+        border-radius: 10px;
+        border: none;
+        padding: 3%;
+        background-color: rgb(71, 71, 71);
+        text-align: center;
+        color: rgb(233, 234, 235);
+        width: 200px;
+        align-items: center;
+    }
+    
+    h3{
+        color: rgb(147, 214, 45);
+        size: 2px;
+    }
+    h2{
+        color: rgb(252, 252, 252);
+        size: 1px;
+        
+    }
+    button:hover {
+        background-color: rgb(93, 93, 93); /* Darken button background color on hover */
+      }
+     
+    .inter-uniquifier {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 2px;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0;
+      }
+    .attribution{
+        padding-top: 10%;
+    }  
+   
+    
+}
+
+
+
+
+
+
+@media (min-width:375px) {
+    body{
+        padding-top: 57px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height:50vh;
+        margin: 0;
+        background-color: rgb(22, 22, 22);
+        font-family: inter;
+    
+    
+    }
+    .card{
+        background-color: rgb(45, 42, 42);
+        width: 300px;
+        padding: 1px;
+        border-radius: 8px;
+        text-align: center;
+        height:450px ;
+    }
+    .name{
+        padding-top: 10px;
+    }
+    .role{
+        padding-top: 10px;
+        color: aliceblue;
+        size: 1px;
+    }
+    .cardimg{
+        border-radius: 50%;
+        height: 15%;
+        width: 30%;
+        
+    }
+    .lis{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .skill{
+        padding-top:4%;
+    
+        
+    }
+    button{
+        padding-top: 20%;
+        border-radius: 10px;
+        border: none;
+        padding: 3%;
+        background-color: rgb(71, 71, 71);
+        text-align: center;
+        color: rgb(233, 234, 235);
+        width: 200px;
+        align-items: center;
+    }
+    
+    h3{
+        color: rgb(147, 214, 45);
+        size: 2px;
+    }
+    h2{
+        color: rgb(252, 252, 252);
+        size: 1px;
+        
+    }
+    button:hover {
+        background-color: rgb(93, 93, 93); /* Darken button background color on hover */
+      }
+     
+    .inter-uniquifier {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 2px;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0;
+      }
+    .attribution{
+        padding-top: 10%;
+    }  
+   
+    
+}
+
+@media (width:768px)
+{
+    body{
+        padding-top: 5%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height:50vh;
+        margin: 0;
+        background-color: rgb(34, 33, 33);
+        font-family: inter;
+        border-radius: 10px;
+    
+    
+    }
+    .card{
+        background-color: rgb(45, 42, 42);
+        width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        height:500px ;
+    }
+    .name{
+        padding-top: 10px;
+    }
+    .role{
+        padding-top: 10px;
+        color: aliceblue;
+        size: 1px;
+    }
+    .cardimg{
+        border-radius: 50%;
+        height: 10%;
+        width: 30%;
+        
+    }
+    .lis{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .skill{
+        padding-top:4%;
+    
+        
+    }
+    button{
+        padding-top: 20%;
+        border-radius: 10px;
+        border: none;
+        padding: 3%;
+        background-color: rgb(71, 71, 71);
+        text-align: center;
+        color: rgb(233, 234, 235);
+    }
+    
+    h3{
+        color: aliceblue;
+        size: 3px;
+    }
+    h2{
+        color: rgb(115, 229, 16);
+        size: 1px;
+        
+    }
+    button:hover {
+        background-color: rgb(93, 93, 93); /* Darken button background color on hover */
+      }
+     
+    .inter-uniquifier {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 2px;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0;
+      }
+    .attribution{
+        padding-top: 10%;
+    }  
+
+
+}
+@media (width:1440px)
+{
+    body{
+        padding-top: 3%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        height:50vh;
+        margin: 0;
+        background-color: rgb(34, 33, 33);
+        font-family: inter;
+        border-radius: 10px;
+    
+    
+    }
+    .card{
+        background-color: rgb(45, 42, 42);
+        width: 400px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        height:600px ;
+    }
+    .name{
+        padding-top: 10px;
+    }
+    .role{
+        padding-top: 10px;
+        color: aliceblue;
+        size: 1px;
+    }
+    .cardimg{
+        border-radius: 50%;
+        height: 10%;
+        width: 30%;
+        
+    }
+    .lis{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .skill{
+        padding-top:4%;
+    
+        
+    }
+    button{
+        padding-top: 20%;
+        border-radius: 10px;
+        border: none;
+        padding: 3%;
+        background-color: rgb(71, 71, 71);
+        text-align: center;
+        color: rgb(233, 234, 235);
+    }
+    
+    h3{
+        color: aliceblue;
+        size: 3px;
+    }
+    h2{
+        color: rgb(115, 229, 16);
+        size: 1px;
+        
+    }
+    button:hover {
+        background-color: rgb(93, 93, 93); /* Darken button background color on hover */
+      }
+     
+    .inter-uniquifier {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 2px;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0;
+      }
+    .attribution{
+        padding-top: 10%;
+    }  
+
+
+}
